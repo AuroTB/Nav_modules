@@ -1,0 +1,8 @@
+prefix=/home/pev/Documents/Nav/catkin_ws/install
+
+Name: pointcloud2laser
+Description: Description of pointcloud2laser
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
