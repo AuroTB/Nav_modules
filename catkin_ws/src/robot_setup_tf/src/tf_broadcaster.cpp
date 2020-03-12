@@ -14,7 +14,7 @@ int main(int argc, char** argv){
       tf::StampedTransform(
         // Vector3: translation that we'd like to apply in meters from base.
         tf::Transform(tf::Quaternion(0, 0, 0, 1), tf::Vector3(0.1, 0.0, 0.2)),
-        ros::Time::now(),"base_link", "base_laser"));
+        ros::Time::now(),"axis", "laser_link"));
     r.sleep();
   }
 }

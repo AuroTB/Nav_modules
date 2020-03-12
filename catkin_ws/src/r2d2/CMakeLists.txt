@@ -13,6 +13,8 @@ find_package(catkin REQUIRED COMPONENTS
   sensor_msgs
   std_msgs
   tf
+  tf2
+  tf2_ros
 )
 
 ## System dependencies are found with CMake's conventions
@@ -153,10 +155,12 @@ include_directories(
    state_publisher
    ${catkin_LIBRARIES}
  )
-  target_link_libraries(
+
+ target_link_libraries(
    laser_state_publisher
    ${catkin_LIBRARIES}
- )
+)
+  
 
 #############
 ## Install ##
