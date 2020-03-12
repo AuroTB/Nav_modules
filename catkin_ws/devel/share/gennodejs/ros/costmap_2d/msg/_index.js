@@ -1,8 +1,1 @@
-
-"use strict";
-
-let VoxelGrid = require('./VoxelGrid.js');
-
-module.exports = {
-  VoxelGrid: VoxelGrid,
-};
+/home/pev/Documents/Nav/catkin_ws/devel/.private/costmap_2d/share/gennodejs/ros/costmap_2d/msg/_index.js

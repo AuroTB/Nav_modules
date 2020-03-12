@@ -1,0 +1,5 @@
+Symlinking /home/pev/Documents/Nav/catkin_ws/devel/lib/robot_setup_tf/tf_broadcaster
+Symlinking /home/pev/Documents/Nav/catkin_ws/devel/lib/robot_setup_tf/tf_listener
+Symlinking /home/pev/Documents/Nav/catkin_ws/devel/lib/pkgconfig/robot_setup_tf.pc
+Symlinking /home/pev/Documents/Nav/catkin_ws/devel/share/robot_setup_tf/cmake/robot_setup_tfConfig-version.cmake
+Symlinking /home/pev/Documents/Nav/catkin_ws/devel/share/robot_setup_tf/cmake/robot_setup_tfConfig.cmake

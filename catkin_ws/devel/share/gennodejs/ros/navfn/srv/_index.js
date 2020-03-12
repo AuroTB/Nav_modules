@@ -1,10 +1,1 @@
-
-"use strict";
-
-let SetCostmap = require('./SetCostmap.js')
-let MakeNavPlan = require('./MakeNavPlan.js')
-
-module.exports = {
-  SetCostmap: SetCostmap,
-  MakeNavPlan: MakeNavPlan,
-};
+/home/pev/Documents/Nav/catkin_ws/devel/.private/navfn/share/gennodejs/ros/navfn/srv/_index.js

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/tf_broadcaster.dir/src/tf_broadcaster.cpp.o"
-  "/home/pev/Documents/Nav/catkin_ws/devel/lib/robot_setup_tf/tf_broadcaster.pdb"
-  "/home/pev/Documents/Nav/catkin_ws/devel/lib/robot_setup_tf/tf_broadcaster"
+  "/home/pev/Documents/Nav/catkin_ws/devel/.private/robot_setup_tf/lib/robot_setup_tf/tf_broadcaster.pdb"
+  "/home/pev/Documents/Nav/catkin_ws/devel/.private/robot_setup_tf/lib/robot_setup_tf/tf_broadcaster"
 )
 
 # Per-language clean rules from dependency scanning.

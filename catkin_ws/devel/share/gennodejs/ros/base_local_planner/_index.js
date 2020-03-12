@@ -1,6 +1,1 @@
-
-"use strict";
-
-module.exports = {
-  msg: require('./msg/_index.js'),
-};
+/home/pev/Documents/Nav/catkin_ws/devel/.private/base_local_planner/share/gennodejs/ros/base_local_planner/_index.js

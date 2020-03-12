@@ -1,0 +1,13 @@
+Symlinking /home/pev/Documents/Nav/catkin_ws/devel/lib/libopenni_driver.so
+Symlinking /home/pev/Documents/Nav/catkin_ws/devel/lib/libopenni_nodelet.so
+Symlinking /home/pev/Documents/Nav/catkin_ws/devel/lib/python2.7/dist-packages/openni_camera/__init__.py
+Symlinking /home/pev/Documents/Nav/catkin_ws/devel/lib/python2.7/dist-packages/openni_camera/cfg/__init__.py
+Symlinking /home/pev/Documents/Nav/catkin_ws/devel/lib/python2.7/dist-packages/openni_camera/cfg/OpenNIConfig.py
+Symlinking /home/pev/Documents/Nav/catkin_ws/devel/lib/openni_camera/openni_node
+Symlinking /home/pev/Documents/Nav/catkin_ws/devel/lib/pkgconfig/openni_camera.pc
+Symlinking /home/pev/Documents/Nav/catkin_ws/devel/include/openni_camera/OpenNIConfig.h
+Symlinking /home/pev/Documents/Nav/catkin_ws/devel/share/openni_camera/docs/OpenNIConfig.dox
+Symlinking /home/pev/Documents/Nav/catkin_ws/devel/share/openni_camera/docs/OpenNIConfig.wikidoc
+Symlinking /home/pev/Documents/Nav/catkin_ws/devel/share/openni_camera/docs/OpenNIConfig-usage.dox
+Symlinking /home/pev/Documents/Nav/catkin_ws/devel/share/openni_camera/cmake/openni_cameraConfig-version.cmake
+Symlinking /home/pev/Documents/Nav/catkin_ws/devel/share/openni_camera/cmake/openni_cameraConfig.cmake

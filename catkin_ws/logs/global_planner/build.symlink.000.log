@@ -1,0 +1,12 @@
+Symlinking /home/pev/Documents/Nav/catkin_ws/devel/lib/libglobal_planner.so
+Symlinking /home/pev/Documents/Nav/catkin_ws/devel/lib/python2.7/dist-packages/global_planner/__init__.py
+Symlinking /home/pev/Documents/Nav/catkin_ws/devel/lib/python2.7/dist-packages/global_planner/cfg/GlobalPlannerConfig.py
+Symlinking /home/pev/Documents/Nav/catkin_ws/devel/lib/python2.7/dist-packages/global_planner/cfg/__init__.py
+Symlinking /home/pev/Documents/Nav/catkin_ws/devel/lib/pkgconfig/global_planner.pc
+Symlinking /home/pev/Documents/Nav/catkin_ws/devel/lib/global_planner/planner
+Symlinking /home/pev/Documents/Nav/catkin_ws/devel/include/global_planner/GlobalPlannerConfig.h
+Symlinking /home/pev/Documents/Nav/catkin_ws/devel/share/global_planner/docs/GlobalPlannerConfig-usage.dox
+Symlinking /home/pev/Documents/Nav/catkin_ws/devel/share/global_planner/docs/GlobalPlannerConfig.dox
+Symlinking /home/pev/Documents/Nav/catkin_ws/devel/share/global_planner/docs/GlobalPlannerConfig.wikidoc
+Symlinking /home/pev/Documents/Nav/catkin_ws/devel/share/global_planner/cmake/global_plannerConfig.cmake
+Symlinking /home/pev/Documents/Nav/catkin_ws/devel/share/global_planner/cmake/global_plannerConfig-version.cmake

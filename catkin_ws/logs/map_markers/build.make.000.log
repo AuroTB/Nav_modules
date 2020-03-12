@@ -1,0 +1,8 @@
+[35m[1mScanning dependencies of target basic_shapes[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/basic_shapes.dir/src/basic_shapes.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable /home/pev/Documents/Nav/catkin_ws/devel/.private/map_markers/lib/map_markers/basic_shapes[0m
+[ 50%] Built target basic_shapes
+[35m[1mScanning dependencies of target points_and_lines[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/points_and_lines.dir/src/points_and_lines.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/pev/Documents/Nav/catkin_ws/devel/.private/map_markers/lib/map_markers/points_and_lines[0m
+[100%] Built target points_and_lines

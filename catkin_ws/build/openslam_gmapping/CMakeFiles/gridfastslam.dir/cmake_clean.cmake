@@ -3,8 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/gridfastslam.dir/gridfastslam/motionmodel.cpp.o"
   "CMakeFiles/gridfastslam.dir/gridfastslam/gridslamprocessor.cpp.o"
   "CMakeFiles/gridfastslam.dir/gridfastslam/gfsreader.cpp.o"
-  "/home/pev/Documents/Nav/catkin_ws/devel/lib/libgridfastslam.pdb"
-  "/home/pev/Documents/Nav/catkin_ws/devel/lib/libgridfastslam.so"
+  "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/libgridfastslam.pdb"
+  "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/libgridfastslam.so"
 )
 
 # Per-language clean rules from dependency scanning.

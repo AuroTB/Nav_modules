@@ -1,7 +1,1 @@
-
-"use strict";
-
-module.exports = {
-  msg: require('./msg/_index.js'),
-  srv: require('./srv/_index.js')
-};
+/home/pev/Documents/Nav/catkin_ws/devel/.private/tf2_msgs/share/gennodejs/ros/tf2_msgs/_index.js

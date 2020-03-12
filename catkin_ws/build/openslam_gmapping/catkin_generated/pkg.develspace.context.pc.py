@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "/home/pev/Documents/Nav/catkin_ws/src/opensla
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lutils;-lsensor_base;-lsensor_odometry;-lsensor_range;-llog;-lconfigfile;-lscanmatcher;-lgridfastslam".split(';') if "-lutils;-lsensor_base;-lsensor_odometry;-lsensor_range;-llog;-lconfigfile;-lscanmatcher;-lgridfastslam" != "" else []
 PROJECT_NAME = "openslam_gmapping"
-PROJECT_SPACE_DIR = "/home/pev/Documents/Nav/catkin_ws/devel"
+PROJECT_SPACE_DIR = "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping"
 PROJECT_VERSION = "0.2.1"

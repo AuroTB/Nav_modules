@@ -43,114 +43,114 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pev/Documents/Nav/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pev/Documents/Nav/catkin_ws/build
+CMAKE_BINARY_DIR = /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping
 
 # Include any dependencies generated for this target.
-include openslam_gmapping/CMakeFiles/scanmatcher.dir/depend.make
+include CMakeFiles/scanmatcher.dir/depend.make
 
 # Include the progress variables for this target.
-include openslam_gmapping/CMakeFiles/scanmatcher.dir/progress.make
+include CMakeFiles/scanmatcher.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include openslam_gmapping/CMakeFiles/scanmatcher.dir/flags.make
+include CMakeFiles/scanmatcher.dir/flags.make
 
-openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/smmap.cpp.o: openslam_gmapping/CMakeFiles/scanmatcher.dir/flags.make
-openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/smmap.cpp.o: /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/scanmatcher/smmap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pev/Documents/Nav/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/smmap.cpp.o"
-	cd /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scanmatcher.dir/scanmatcher/smmap.cpp.o -c /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/scanmatcher/smmap.cpp
+CMakeFiles/scanmatcher.dir/scanmatcher/smmap.cpp.o: CMakeFiles/scanmatcher.dir/flags.make
+CMakeFiles/scanmatcher.dir/scanmatcher/smmap.cpp.o: /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/scanmatcher/smmap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/scanmatcher.dir/scanmatcher/smmap.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scanmatcher.dir/scanmatcher/smmap.cpp.o -c /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/scanmatcher/smmap.cpp
 
-openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/smmap.cpp.i: cmake_force
+CMakeFiles/scanmatcher.dir/scanmatcher/smmap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scanmatcher.dir/scanmatcher/smmap.cpp.i"
-	cd /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/scanmatcher/smmap.cpp > CMakeFiles/scanmatcher.dir/scanmatcher/smmap.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/scanmatcher/smmap.cpp > CMakeFiles/scanmatcher.dir/scanmatcher/smmap.cpp.i
 
-openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/smmap.cpp.s: cmake_force
+CMakeFiles/scanmatcher.dir/scanmatcher/smmap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scanmatcher.dir/scanmatcher/smmap.cpp.s"
-	cd /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/scanmatcher/smmap.cpp -o CMakeFiles/scanmatcher.dir/scanmatcher/smmap.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/scanmatcher/smmap.cpp -o CMakeFiles/scanmatcher.dir/scanmatcher/smmap.cpp.s
 
-openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/smmap.cpp.o.requires:
+CMakeFiles/scanmatcher.dir/scanmatcher/smmap.cpp.o.requires:
 
-.PHONY : openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/smmap.cpp.o.requires
+.PHONY : CMakeFiles/scanmatcher.dir/scanmatcher/smmap.cpp.o.requires
 
-openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/smmap.cpp.o.provides: openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/smmap.cpp.o.requires
-	$(MAKE) -f openslam_gmapping/CMakeFiles/scanmatcher.dir/build.make openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/smmap.cpp.o.provides.build
-.PHONY : openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/smmap.cpp.o.provides
+CMakeFiles/scanmatcher.dir/scanmatcher/smmap.cpp.o.provides: CMakeFiles/scanmatcher.dir/scanmatcher/smmap.cpp.o.requires
+	$(MAKE) -f CMakeFiles/scanmatcher.dir/build.make CMakeFiles/scanmatcher.dir/scanmatcher/smmap.cpp.o.provides.build
+.PHONY : CMakeFiles/scanmatcher.dir/scanmatcher/smmap.cpp.o.provides
 
-openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/smmap.cpp.o.provides.build: openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/smmap.cpp.o
+CMakeFiles/scanmatcher.dir/scanmatcher/smmap.cpp.o.provides.build: CMakeFiles/scanmatcher.dir/scanmatcher/smmap.cpp.o
 
 
-openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.o: openslam_gmapping/CMakeFiles/scanmatcher.dir/flags.make
-openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.o: /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/scanmatcher/scanmatcher.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pev/Documents/Nav/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.o"
-	cd /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.o -c /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/scanmatcher/scanmatcher.cpp
+CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.o: CMakeFiles/scanmatcher.dir/flags.make
+CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.o: /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/scanmatcher/scanmatcher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.o -c /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/scanmatcher/scanmatcher.cpp
 
-openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.i: cmake_force
+CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.i"
-	cd /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/scanmatcher/scanmatcher.cpp > CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/scanmatcher/scanmatcher.cpp > CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.i
 
-openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.s: cmake_force
+CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.s"
-	cd /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/scanmatcher/scanmatcher.cpp -o CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/scanmatcher/scanmatcher.cpp -o CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.s
 
-openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.o.requires:
+CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.o.requires:
 
-.PHONY : openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.o.requires
+.PHONY : CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.o.requires
 
-openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.o.provides: openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.o.requires
-	$(MAKE) -f openslam_gmapping/CMakeFiles/scanmatcher.dir/build.make openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.o.provides.build
-.PHONY : openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.o.provides
+CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.o.provides: CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.o.requires
+	$(MAKE) -f CMakeFiles/scanmatcher.dir/build.make CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.o.provides.build
+.PHONY : CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.o.provides
 
-openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.o.provides.build: openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.o
+CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.o.provides.build: CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.o
 
 
-openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.o: openslam_gmapping/CMakeFiles/scanmatcher.dir/flags.make
-openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.o: /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/scanmatcher/scanmatcherprocessor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pev/Documents/Nav/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.o"
-	cd /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.o -c /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/scanmatcher/scanmatcherprocessor.cpp
+CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.o: CMakeFiles/scanmatcher.dir/flags.make
+CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.o: /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/scanmatcher/scanmatcherprocessor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.o -c /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/scanmatcher/scanmatcherprocessor.cpp
 
-openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.i: cmake_force
+CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.i"
-	cd /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/scanmatcher/scanmatcherprocessor.cpp > CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/scanmatcher/scanmatcherprocessor.cpp > CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.i
 
-openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.s: cmake_force
+CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.s"
-	cd /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/scanmatcher/scanmatcherprocessor.cpp -o CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/scanmatcher/scanmatcherprocessor.cpp -o CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.s
 
-openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.o.requires:
+CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.o.requires:
 
-.PHONY : openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.o.requires
+.PHONY : CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.o.requires
 
-openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.o.provides: openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.o.requires
-	$(MAKE) -f openslam_gmapping/CMakeFiles/scanmatcher.dir/build.make openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.o.provides.build
-.PHONY : openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.o.provides
+CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.o.provides: CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.o.requires
+	$(MAKE) -f CMakeFiles/scanmatcher.dir/build.make CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.o.provides.build
+.PHONY : CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.o.provides
 
-openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.o.provides.build: openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.o
+CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.o.provides.build: CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.o
 
 
-openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.o: openslam_gmapping/CMakeFiles/scanmatcher.dir/flags.make
-openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.o: /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/scanmatcher/eig3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pev/Documents/Nav/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.o"
-	cd /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.o -c /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/scanmatcher/eig3.cpp
+CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.o: CMakeFiles/scanmatcher.dir/flags.make
+CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.o: /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/scanmatcher/eig3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.o -c /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/scanmatcher/eig3.cpp
 
-openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.i: cmake_force
+CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.i"
-	cd /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/scanmatcher/eig3.cpp > CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/scanmatcher/eig3.cpp > CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.i
 
-openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.s: cmake_force
+CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.s"
-	cd /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/scanmatcher/eig3.cpp -o CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/scanmatcher/eig3.cpp -o CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.s
 
-openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.o.requires:
+CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.o.requires:
 
-.PHONY : openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.o.requires
+.PHONY : CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.o.requires
 
-openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.o.provides: openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.o.requires
-	$(MAKE) -f openslam_gmapping/CMakeFiles/scanmatcher.dir/build.make openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.o.provides.build
-.PHONY : openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.o.provides
+CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.o.provides: CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.o.requires
+	$(MAKE) -f CMakeFiles/scanmatcher.dir/build.make CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.o.provides.build
+.PHONY : CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.o.provides
 
-openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.o.provides.build: openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.o
+CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.o.provides.build: CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.o
 
 
 # Object files for target scanmatcher
@@ -163,37 +163,37 @@ scanmatcher_OBJECTS = \
 # External object files for target scanmatcher
 scanmatcher_EXTERNAL_OBJECTS =
 
-/home/pev/Documents/Nav/catkin_ws/devel/lib/libscanmatcher.so: openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/smmap.cpp.o
-/home/pev/Documents/Nav/catkin_ws/devel/lib/libscanmatcher.so: openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.o
-/home/pev/Documents/Nav/catkin_ws/devel/lib/libscanmatcher.so: openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.o
-/home/pev/Documents/Nav/catkin_ws/devel/lib/libscanmatcher.so: openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.o
-/home/pev/Documents/Nav/catkin_ws/devel/lib/libscanmatcher.so: openslam_gmapping/CMakeFiles/scanmatcher.dir/build.make
-/home/pev/Documents/Nav/catkin_ws/devel/lib/libscanmatcher.so: /home/pev/Documents/Nav/catkin_ws/devel/lib/liblog.so
-/home/pev/Documents/Nav/catkin_ws/devel/lib/libscanmatcher.so: /home/pev/Documents/Nav/catkin_ws/devel/lib/libsensor_range.so
-/home/pev/Documents/Nav/catkin_ws/devel/lib/libscanmatcher.so: /home/pev/Documents/Nav/catkin_ws/devel/lib/libsensor_odometry.so
-/home/pev/Documents/Nav/catkin_ws/devel/lib/libscanmatcher.so: /home/pev/Documents/Nav/catkin_ws/devel/lib/libsensor_base.so
-/home/pev/Documents/Nav/catkin_ws/devel/lib/libscanmatcher.so: /home/pev/Documents/Nav/catkin_ws/devel/lib/libutils.so
-/home/pev/Documents/Nav/catkin_ws/devel/lib/libscanmatcher.so: openslam_gmapping/CMakeFiles/scanmatcher.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pev/Documents/Nav/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library /home/pev/Documents/Nav/catkin_ws/devel/lib/libscanmatcher.so"
-	cd /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/scanmatcher.dir/link.txt --verbose=$(VERBOSE)
+/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/libscanmatcher.so: CMakeFiles/scanmatcher.dir/scanmatcher/smmap.cpp.o
+/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/libscanmatcher.so: CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.o
+/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/libscanmatcher.so: CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.o
+/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/libscanmatcher.so: CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.o
+/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/libscanmatcher.so: CMakeFiles/scanmatcher.dir/build.make
+/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/libscanmatcher.so: /home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/liblog.so
+/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/libscanmatcher.so: /home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/libsensor_range.so
+/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/libscanmatcher.so: /home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/libsensor_odometry.so
+/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/libscanmatcher.so: /home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/libsensor_base.so
+/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/libscanmatcher.so: /home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/libutils.so
+/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/libscanmatcher.so: CMakeFiles/scanmatcher.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library /home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/libscanmatcher.so"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/scanmatcher.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-openslam_gmapping/CMakeFiles/scanmatcher.dir/build: /home/pev/Documents/Nav/catkin_ws/devel/lib/libscanmatcher.so
+CMakeFiles/scanmatcher.dir/build: /home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/libscanmatcher.so
 
-.PHONY : openslam_gmapping/CMakeFiles/scanmatcher.dir/build
+.PHONY : CMakeFiles/scanmatcher.dir/build
 
-openslam_gmapping/CMakeFiles/scanmatcher.dir/requires: openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/smmap.cpp.o.requires
-openslam_gmapping/CMakeFiles/scanmatcher.dir/requires: openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.o.requires
-openslam_gmapping/CMakeFiles/scanmatcher.dir/requires: openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.o.requires
-openslam_gmapping/CMakeFiles/scanmatcher.dir/requires: openslam_gmapping/CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.o.requires
+CMakeFiles/scanmatcher.dir/requires: CMakeFiles/scanmatcher.dir/scanmatcher/smmap.cpp.o.requires
+CMakeFiles/scanmatcher.dir/requires: CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.o.requires
+CMakeFiles/scanmatcher.dir/requires: CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.o.requires
+CMakeFiles/scanmatcher.dir/requires: CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.o.requires
 
-.PHONY : openslam_gmapping/CMakeFiles/scanmatcher.dir/requires
+.PHONY : CMakeFiles/scanmatcher.dir/requires
 
-openslam_gmapping/CMakeFiles/scanmatcher.dir/clean:
-	cd /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping && $(CMAKE_COMMAND) -P CMakeFiles/scanmatcher.dir/cmake_clean.cmake
-.PHONY : openslam_gmapping/CMakeFiles/scanmatcher.dir/clean
+CMakeFiles/scanmatcher.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles/scanmatcher.dir/cmake_clean.cmake
+.PHONY : CMakeFiles/scanmatcher.dir/clean
 
-openslam_gmapping/CMakeFiles/scanmatcher.dir/depend:
-	cd /home/pev/Documents/Nav/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pev/Documents/Nav/catkin_ws/src /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping /home/pev/Documents/Nav/catkin_ws/build /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping/CMakeFiles/scanmatcher.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : openslam_gmapping/CMakeFiles/scanmatcher.dir/depend
+CMakeFiles/scanmatcher.dir/depend:
+	cd /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping/CMakeFiles/scanmatcher.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : CMakeFiles/scanmatcher.dir/depend
 

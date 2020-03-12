@@ -1,14 +1,1 @@
-# generated from catkin/cmake/template/pkgConfig-version.cmake.in
-set(PACKAGE_VERSION "0.6.6")
-
-set(PACKAGE_VERSION_EXACT False)
-set(PACKAGE_VERSION_COMPATIBLE False)
-
-if("${PACKAGE_FIND_VERSION}" VERSION_EQUAL "${PACKAGE_VERSION}")
-  set(PACKAGE_VERSION_EXACT True)
-  set(PACKAGE_VERSION_COMPATIBLE True)
-endif()
-
-if("${PACKAGE_FIND_VERSION}" VERSION_LESS "${PACKAGE_VERSION}")
-  set(PACKAGE_VERSION_COMPATIBLE True)
-endif()
+/home/pev/Documents/Nav/catkin_ws/devel/.private/tf2/share/tf2/cmake/tf2Config-version.cmake

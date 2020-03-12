@@ -1,8 +1,1 @@
-prefix=/home/pev/Documents/Nav/catkin_ws/devel
-
-Name: test_tf2
-Description: Description of test_tf2
-Version: 0.6.6
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
+/home/pev/Documents/Nav/catkin_ws/devel/.private/test_tf2/lib/pkgconfig/test_tf2.pc

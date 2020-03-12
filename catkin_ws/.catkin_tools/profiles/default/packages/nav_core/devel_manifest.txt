@@ -1,0 +1,5 @@
+navigation/nav_core
+/home/pev/Documents/Nav/catkin_ws/devel/.private/nav_core/cmake.lock /home/pev/Documents/Nav/catkin_ws/devel/./cmake.lock
+/home/pev/Documents/Nav/catkin_ws/devel/.private/nav_core/lib/pkgconfig/nav_core.pc /home/pev/Documents/Nav/catkin_ws/devel/lib/pkgconfig/nav_core.pc
+/home/pev/Documents/Nav/catkin_ws/devel/.private/nav_core/share/nav_core/cmake/nav_coreConfig-version.cmake /home/pev/Documents/Nav/catkin_ws/devel/share/nav_core/cmake/nav_coreConfig-version.cmake
+/home/pev/Documents/Nav/catkin_ws/devel/.private/nav_core/share/nav_core/cmake/nav_coreConfig.cmake /home/pev/Documents/Nav/catkin_ws/devel/share/nav_core/cmake/nav_coreConfig.cmake

@@ -1,0 +1,5 @@
+Symlinking /home/pev/Documents/Nav/catkin_ws/devel/lib/r2d2/laser_state_publisher
+Symlinking /home/pev/Documents/Nav/catkin_ws/devel/lib/r2d2/state_publisher
+Symlinking /home/pev/Documents/Nav/catkin_ws/devel/lib/pkgconfig/r2d2.pc
+Symlinking /home/pev/Documents/Nav/catkin_ws/devel/share/r2d2/cmake/r2d2Config-version.cmake
+Symlinking /home/pev/Documents/Nav/catkin_ws/devel/share/r2d2/cmake/r2d2Config.cmake

@@ -1,1 +1,1 @@
-from ._Test import *
+/home/pev/Documents/Nav/catkin_ws/devel/.private/rosserial_mbed/lib/python2.7/dist-packages/rosserial_mbed/srv/__init__.py

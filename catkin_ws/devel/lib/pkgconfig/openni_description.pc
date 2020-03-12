@@ -1,8 +1,1 @@
-prefix=/home/pev/Documents/Nav/catkin_ws/devel
-
-Name: openni_description
-Description: Description of openni_description
-Version: 1.11.1
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
+/home/pev/Documents/Nav/catkin_ws/devel/.private/openni_description/lib/pkgconfig/openni_description.pc

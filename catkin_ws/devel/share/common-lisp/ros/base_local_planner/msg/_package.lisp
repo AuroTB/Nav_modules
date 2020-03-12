@@ -1,7 +1,1 @@
-(cl:defpackage base_local_planner-msg
-  (:use )
-  (:export
-   "<POSITION2DINT>"
-   "POSITION2DINT"
-  ))
-
+/home/pev/Documents/Nav/catkin_ws/devel/.private/base_local_planner/share/common-lisp/ros/base_local_planner/msg/_package.lisp

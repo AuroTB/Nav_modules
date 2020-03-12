@@ -1,1 +1,1 @@
-from ._Adc import *
+/home/pev/Documents/Nav/catkin_ws/devel/.private/rosserial_arduino/lib/python2.7/dist-packages/rosserial_arduino/msg/__init__.py

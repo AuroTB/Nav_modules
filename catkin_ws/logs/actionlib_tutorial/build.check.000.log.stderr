@@ -1,0 +1,16 @@
+[31m[1mCMake Error[0m at /home/pev/Documents/Nav/catkin_ws/build/actionlib_tutorial/cmake/actionlib_tutorial-genmsg.cmake:3 (message):
+  Could not find messages which
+  '/home/pev/Documents/Nav/catkin_ws/devel/.private/actionlib_tutorial/share/actionlib_tutorial/msg/navServAction.msg'
+  depends on.  Did you forget to specify generate_messages(DEPENDENCIES ...)?
+
+  Cannot locate message [PoseStamped]: unknown package [geometry_msgs] on
+  search path [{{'actionlib_msgs':
+  ['/opt/ros/melodic/share/actionlib_msgs/cmake/../msg'], 'std_msgs':
+  ['/opt/ros/melodic/share/std_msgs/cmake/../msg'], 'actionlib_tutorial':
+  ['/home/pev/Documents/Nav/catkin_ws/devel/.private/actionlib_tutorial/share/actionlib_tutorial/msg']}}]
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/melodic/share/genmsg/cmake/genmsg-extras.cmake:307 (include)
+  CMakeLists.txt:73 (generate_messages)
+
+
+make: *** [cmake_check_build_system] Error 1

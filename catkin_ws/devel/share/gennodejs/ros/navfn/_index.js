@@ -1,6 +1,1 @@
-
-"use strict";
-
-module.exports = {
-  srv: require('./srv/_index.js')
-};
+/home/pev/Documents/Nav/catkin_ws/devel/.private/navfn/share/gennodejs/ros/navfn/_index.js

@@ -1,0 +1,39 @@
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/pev/Documents/Nav/catkin_ws/devel/.private/actionlib_tutorial
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/pev/Documents/Nav/catkin_ws/devel;/home/pev/catkin_ws/devel;/opt/ros/melodic
+[36m--[0m This workspace overlays: /home/pev/Documents/Nav/catkin_ws/devel;/home/pev/catkin_ws/devel;/opt/ros/melodic
+[36m--[0m Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2")
+[36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python2
+[36m--[0m Using Debian Python package layout
+[36m--[0m Using empy: /usr/bin/empy
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/pev/Documents/Nav/catkin_ws/build/actionlib_tutorial/test_results
+[36m--[0m Found gtest sources under '/usr/src/googletest': gtests will be built
+[36m--[0m Found gmock sources under '/usr/src/googletest': gmock will be built
+[36m--[0m Found PythonInterp: /usr/bin/python2 (found version "2.7.17")
+[36m--[0m Using Python nosetests: /usr/bin/nosetests-2.7
+[36m--[0m catkin 0.7.20
+[36m--[0m BUILD_SHARED_LIBS is on
+[36m--[0m Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[36m--[0m Generating .msg files for action actionlib_tutorial/navServ /home/pev/Documents/Nav/catkin_ws/src/actionlib_tutorial/action/navServ.action
+Generating for action navServ
+[31m[1mCMake Error[0m at /home/pev/Documents/Nav/catkin_ws/build/actionlib_tutorial/cmake/actionlib_tutorial-genmsg.cmake:3 (message):
+  Could not find messages which
+  '/home/pev/Documents/Nav/catkin_ws/devel/.private/actionlib_tutorial/share/actionlib_tutorial/msg/navServAction.msg'
+  depends on.  Did you forget to specify generate_messages(DEPENDENCIES ...)?
+
+  Cannot locate message [PoseStamped]: unknown package [geometry_msgs] on
+  search path [{{'actionlib_msgs':
+  ['/opt/ros/melodic/share/actionlib_msgs/cmake/../msg'], 'std_msgs':
+  ['/opt/ros/melodic/share/std_msgs/cmake/../msg'], 'actionlib_tutorial':
+  ['/home/pev/Documents/Nav/catkin_ws/devel/.private/actionlib_tutorial/share/actionlib_tutorial/msg']}}]
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/melodic/share/genmsg/cmake/genmsg-extras.cmake:307 (include)
+  CMakeLists.txt:73 (generate_messages)
+
+
+[36m--[0m Configuring incomplete, errors occurred!
+See also "/home/pev/Documents/Nav/catkin_ws/build/actionlib_tutorial/CMakeFiles/CMakeOutput.log".
+See also "/home/pev/Documents/Nav/catkin_ws/build/actionlib_tutorial/CMakeFiles/CMakeError.log".
+Makefile:936: recipe for target 'cmake_check_build_system' failed
+make: *** [cmake_check_build_system] Error 1

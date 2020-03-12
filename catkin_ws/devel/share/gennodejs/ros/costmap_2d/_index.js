@@ -1,6 +1,1 @@
-
-"use strict";
-
-module.exports = {
-  msg: require('./msg/_index.js'),
-};
+/home/pev/Documents/Nav/catkin_ws/devel/.private/costmap_2d/share/gennodejs/ros/costmap_2d/_index.js
