@@ -1,1 +1,8 @@
-/home/pev/Documents/Nav/catkin_ws/devel/.private/r2d2/lib/pkgconfig/r2d2.pc
+prefix=/home/pev/Documents/Nav/catkin_ws/devel
+
+Name: r2d2
+Description: Description of r2d2
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

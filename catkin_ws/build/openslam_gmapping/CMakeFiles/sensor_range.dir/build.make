@@ -43,66 +43,66 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping
+CMAKE_SOURCE_DIR = /home/pev/Documents/Nav/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping
+CMAKE_BINARY_DIR = /home/pev/Documents/Nav/catkin_ws/build
 
 # Include any dependencies generated for this target.
-include CMakeFiles/sensor_range.dir/depend.make
+include openslam_gmapping/CMakeFiles/sensor_range.dir/depend.make
 
 # Include the progress variables for this target.
-include CMakeFiles/sensor_range.dir/progress.make
+include openslam_gmapping/CMakeFiles/sensor_range.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include CMakeFiles/sensor_range.dir/flags.make
+include openslam_gmapping/CMakeFiles/sensor_range.dir/flags.make
 
-CMakeFiles/sensor_range.dir/sensor/sensor_range/rangesensor.cpp.o: CMakeFiles/sensor_range.dir/flags.make
-CMakeFiles/sensor_range.dir/sensor/sensor_range/rangesensor.cpp.o: /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/sensor/sensor_range/rangesensor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sensor_range.dir/sensor/sensor_range/rangesensor.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sensor_range.dir/sensor/sensor_range/rangesensor.cpp.o -c /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/sensor/sensor_range/rangesensor.cpp
+openslam_gmapping/CMakeFiles/sensor_range.dir/sensor/sensor_range/rangesensor.cpp.o: openslam_gmapping/CMakeFiles/sensor_range.dir/flags.make
+openslam_gmapping/CMakeFiles/sensor_range.dir/sensor/sensor_range/rangesensor.cpp.o: /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/sensor/sensor_range/rangesensor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pev/Documents/Nav/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object openslam_gmapping/CMakeFiles/sensor_range.dir/sensor/sensor_range/rangesensor.cpp.o"
+	cd /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sensor_range.dir/sensor/sensor_range/rangesensor.cpp.o -c /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/sensor/sensor_range/rangesensor.cpp
 
-CMakeFiles/sensor_range.dir/sensor/sensor_range/rangesensor.cpp.i: cmake_force
+openslam_gmapping/CMakeFiles/sensor_range.dir/sensor/sensor_range/rangesensor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sensor_range.dir/sensor/sensor_range/rangesensor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/sensor/sensor_range/rangesensor.cpp > CMakeFiles/sensor_range.dir/sensor/sensor_range/rangesensor.cpp.i
+	cd /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/sensor/sensor_range/rangesensor.cpp > CMakeFiles/sensor_range.dir/sensor/sensor_range/rangesensor.cpp.i
 
-CMakeFiles/sensor_range.dir/sensor/sensor_range/rangesensor.cpp.s: cmake_force
+openslam_gmapping/CMakeFiles/sensor_range.dir/sensor/sensor_range/rangesensor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sensor_range.dir/sensor/sensor_range/rangesensor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/sensor/sensor_range/rangesensor.cpp -o CMakeFiles/sensor_range.dir/sensor/sensor_range/rangesensor.cpp.s
+	cd /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/sensor/sensor_range/rangesensor.cpp -o CMakeFiles/sensor_range.dir/sensor/sensor_range/rangesensor.cpp.s
 
-CMakeFiles/sensor_range.dir/sensor/sensor_range/rangesensor.cpp.o.requires:
+openslam_gmapping/CMakeFiles/sensor_range.dir/sensor/sensor_range/rangesensor.cpp.o.requires:
 
-.PHONY : CMakeFiles/sensor_range.dir/sensor/sensor_range/rangesensor.cpp.o.requires
+.PHONY : openslam_gmapping/CMakeFiles/sensor_range.dir/sensor/sensor_range/rangesensor.cpp.o.requires
 
-CMakeFiles/sensor_range.dir/sensor/sensor_range/rangesensor.cpp.o.provides: CMakeFiles/sensor_range.dir/sensor/sensor_range/rangesensor.cpp.o.requires
-	$(MAKE) -f CMakeFiles/sensor_range.dir/build.make CMakeFiles/sensor_range.dir/sensor/sensor_range/rangesensor.cpp.o.provides.build
-.PHONY : CMakeFiles/sensor_range.dir/sensor/sensor_range/rangesensor.cpp.o.provides
+openslam_gmapping/CMakeFiles/sensor_range.dir/sensor/sensor_range/rangesensor.cpp.o.provides: openslam_gmapping/CMakeFiles/sensor_range.dir/sensor/sensor_range/rangesensor.cpp.o.requires
+	$(MAKE) -f openslam_gmapping/CMakeFiles/sensor_range.dir/build.make openslam_gmapping/CMakeFiles/sensor_range.dir/sensor/sensor_range/rangesensor.cpp.o.provides.build
+.PHONY : openslam_gmapping/CMakeFiles/sensor_range.dir/sensor/sensor_range/rangesensor.cpp.o.provides
 
-CMakeFiles/sensor_range.dir/sensor/sensor_range/rangesensor.cpp.o.provides.build: CMakeFiles/sensor_range.dir/sensor/sensor_range/rangesensor.cpp.o
+openslam_gmapping/CMakeFiles/sensor_range.dir/sensor/sensor_range/rangesensor.cpp.o.provides.build: openslam_gmapping/CMakeFiles/sensor_range.dir/sensor/sensor_range/rangesensor.cpp.o
 
 
-CMakeFiles/sensor_range.dir/sensor/sensor_range/rangereading.cpp.o: CMakeFiles/sensor_range.dir/flags.make
-CMakeFiles/sensor_range.dir/sensor/sensor_range/rangereading.cpp.o: /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/sensor/sensor_range/rangereading.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sensor_range.dir/sensor/sensor_range/rangereading.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sensor_range.dir/sensor/sensor_range/rangereading.cpp.o -c /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/sensor/sensor_range/rangereading.cpp
+openslam_gmapping/CMakeFiles/sensor_range.dir/sensor/sensor_range/rangereading.cpp.o: openslam_gmapping/CMakeFiles/sensor_range.dir/flags.make
+openslam_gmapping/CMakeFiles/sensor_range.dir/sensor/sensor_range/rangereading.cpp.o: /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/sensor/sensor_range/rangereading.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pev/Documents/Nav/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object openslam_gmapping/CMakeFiles/sensor_range.dir/sensor/sensor_range/rangereading.cpp.o"
+	cd /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sensor_range.dir/sensor/sensor_range/rangereading.cpp.o -c /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/sensor/sensor_range/rangereading.cpp
 
-CMakeFiles/sensor_range.dir/sensor/sensor_range/rangereading.cpp.i: cmake_force
+openslam_gmapping/CMakeFiles/sensor_range.dir/sensor/sensor_range/rangereading.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sensor_range.dir/sensor/sensor_range/rangereading.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/sensor/sensor_range/rangereading.cpp > CMakeFiles/sensor_range.dir/sensor/sensor_range/rangereading.cpp.i
+	cd /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/sensor/sensor_range/rangereading.cpp > CMakeFiles/sensor_range.dir/sensor/sensor_range/rangereading.cpp.i
 
-CMakeFiles/sensor_range.dir/sensor/sensor_range/rangereading.cpp.s: cmake_force
+openslam_gmapping/CMakeFiles/sensor_range.dir/sensor/sensor_range/rangereading.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sensor_range.dir/sensor/sensor_range/rangereading.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/sensor/sensor_range/rangereading.cpp -o CMakeFiles/sensor_range.dir/sensor/sensor_range/rangereading.cpp.s
+	cd /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/sensor/sensor_range/rangereading.cpp -o CMakeFiles/sensor_range.dir/sensor/sensor_range/rangereading.cpp.s
 
-CMakeFiles/sensor_range.dir/sensor/sensor_range/rangereading.cpp.o.requires:
+openslam_gmapping/CMakeFiles/sensor_range.dir/sensor/sensor_range/rangereading.cpp.o.requires:
 
-.PHONY : CMakeFiles/sensor_range.dir/sensor/sensor_range/rangereading.cpp.o.requires
+.PHONY : openslam_gmapping/CMakeFiles/sensor_range.dir/sensor/sensor_range/rangereading.cpp.o.requires
 
-CMakeFiles/sensor_range.dir/sensor/sensor_range/rangereading.cpp.o.provides: CMakeFiles/sensor_range.dir/sensor/sensor_range/rangereading.cpp.o.requires
-	$(MAKE) -f CMakeFiles/sensor_range.dir/build.make CMakeFiles/sensor_range.dir/sensor/sensor_range/rangereading.cpp.o.provides.build
-.PHONY : CMakeFiles/sensor_range.dir/sensor/sensor_range/rangereading.cpp.o.provides
+openslam_gmapping/CMakeFiles/sensor_range.dir/sensor/sensor_range/rangereading.cpp.o.provides: openslam_gmapping/CMakeFiles/sensor_range.dir/sensor/sensor_range/rangereading.cpp.o.requires
+	$(MAKE) -f openslam_gmapping/CMakeFiles/sensor_range.dir/build.make openslam_gmapping/CMakeFiles/sensor_range.dir/sensor/sensor_range/rangereading.cpp.o.provides.build
+.PHONY : openslam_gmapping/CMakeFiles/sensor_range.dir/sensor/sensor_range/rangereading.cpp.o.provides
 
-CMakeFiles/sensor_range.dir/sensor/sensor_range/rangereading.cpp.o.provides.build: CMakeFiles/sensor_range.dir/sensor/sensor_range/rangereading.cpp.o
+openslam_gmapping/CMakeFiles/sensor_range.dir/sensor/sensor_range/rangereading.cpp.o.provides.build: openslam_gmapping/CMakeFiles/sensor_range.dir/sensor/sensor_range/rangereading.cpp.o
 
 
 # Object files for target sensor_range
@@ -113,29 +113,29 @@ sensor_range_OBJECTS = \
 # External object files for target sensor_range
 sensor_range_EXTERNAL_OBJECTS =
 
-/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/libsensor_range.so: CMakeFiles/sensor_range.dir/sensor/sensor_range/rangesensor.cpp.o
-/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/libsensor_range.so: CMakeFiles/sensor_range.dir/sensor/sensor_range/rangereading.cpp.o
-/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/libsensor_range.so: CMakeFiles/sensor_range.dir/build.make
-/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/libsensor_range.so: /home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/libsensor_base.so
-/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/libsensor_range.so: CMakeFiles/sensor_range.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library /home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/libsensor_range.so"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sensor_range.dir/link.txt --verbose=$(VERBOSE)
+/home/pev/Documents/Nav/catkin_ws/devel/lib/libsensor_range.so: openslam_gmapping/CMakeFiles/sensor_range.dir/sensor/sensor_range/rangesensor.cpp.o
+/home/pev/Documents/Nav/catkin_ws/devel/lib/libsensor_range.so: openslam_gmapping/CMakeFiles/sensor_range.dir/sensor/sensor_range/rangereading.cpp.o
+/home/pev/Documents/Nav/catkin_ws/devel/lib/libsensor_range.so: openslam_gmapping/CMakeFiles/sensor_range.dir/build.make
+/home/pev/Documents/Nav/catkin_ws/devel/lib/libsensor_range.so: /home/pev/Documents/Nav/catkin_ws/devel/lib/libsensor_base.so
+/home/pev/Documents/Nav/catkin_ws/devel/lib/libsensor_range.so: openslam_gmapping/CMakeFiles/sensor_range.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pev/Documents/Nav/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library /home/pev/Documents/Nav/catkin_ws/devel/lib/libsensor_range.so"
+	cd /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sensor_range.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/sensor_range.dir/build: /home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/libsensor_range.so
+openslam_gmapping/CMakeFiles/sensor_range.dir/build: /home/pev/Documents/Nav/catkin_ws/devel/lib/libsensor_range.so
 
-.PHONY : CMakeFiles/sensor_range.dir/build
+.PHONY : openslam_gmapping/CMakeFiles/sensor_range.dir/build
 
-CMakeFiles/sensor_range.dir/requires: CMakeFiles/sensor_range.dir/sensor/sensor_range/rangesensor.cpp.o.requires
-CMakeFiles/sensor_range.dir/requires: CMakeFiles/sensor_range.dir/sensor/sensor_range/rangereading.cpp.o.requires
+openslam_gmapping/CMakeFiles/sensor_range.dir/requires: openslam_gmapping/CMakeFiles/sensor_range.dir/sensor/sensor_range/rangesensor.cpp.o.requires
+openslam_gmapping/CMakeFiles/sensor_range.dir/requires: openslam_gmapping/CMakeFiles/sensor_range.dir/sensor/sensor_range/rangereading.cpp.o.requires
 
-.PHONY : CMakeFiles/sensor_range.dir/requires
+.PHONY : openslam_gmapping/CMakeFiles/sensor_range.dir/requires
 
-CMakeFiles/sensor_range.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles/sensor_range.dir/cmake_clean.cmake
-.PHONY : CMakeFiles/sensor_range.dir/clean
+openslam_gmapping/CMakeFiles/sensor_range.dir/clean:
+	cd /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping && $(CMAKE_COMMAND) -P CMakeFiles/sensor_range.dir/cmake_clean.cmake
+.PHONY : openslam_gmapping/CMakeFiles/sensor_range.dir/clean
 
-CMakeFiles/sensor_range.dir/depend:
-	cd /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping/CMakeFiles/sensor_range.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/sensor_range.dir/depend
+openslam_gmapping/CMakeFiles/sensor_range.dir/depend:
+	cd /home/pev/Documents/Nav/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pev/Documents/Nav/catkin_ws/src /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping /home/pev/Documents/Nav/catkin_ws/build /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping/CMakeFiles/sensor_range.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : openslam_gmapping/CMakeFiles/sensor_range.dir/depend
 

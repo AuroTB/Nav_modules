@@ -1,1 +1,8 @@
-/home/pev/Documents/Nav/catkin_ws/devel/.private/rosserial_vex_v5/lib/pkgconfig/rosserial_vex_v5.pc
+prefix=/home/pev/Documents/Nav/catkin_ws/devel
+
+Name: rosserial_vex_v5
+Description: Description of rosserial_vex_v5
+Version: 0.8.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

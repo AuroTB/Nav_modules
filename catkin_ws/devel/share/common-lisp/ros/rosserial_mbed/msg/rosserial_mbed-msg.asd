@@ -1,1 +1,9 @@
-/home/pev/Documents/Nav/catkin_ws/devel/.private/rosserial_mbed/share/common-lisp/ros/rosserial_mbed/msg/rosserial_mbed-msg.asd
+
+(cl:in-package :asdf)
+
+(defsystem "rosserial_mbed-msg"
+  :depends-on (:roslisp-msg-protocol :roslisp-utils )
+  :components ((:file "_package")
+    (:file "Adc" :depends-on ("_package_Adc"))
+    (:file "_package_Adc" :depends-on ("_package"))
+  ))

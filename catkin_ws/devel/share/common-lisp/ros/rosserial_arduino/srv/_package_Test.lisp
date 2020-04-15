@@ -1,1 +1,6 @@
-/home/pev/Documents/Nav/catkin_ws/devel/.private/rosserial_arduino/share/common-lisp/ros/rosserial_arduino/srv/_package_Test.lisp
+(cl:in-package rosserial_arduino-srv)
+(cl:export '(INPUT-VAL
+          INPUT
+          OUTPUT-VAL
+          OUTPUT
+))

@@ -1,1 +1,7 @@
-/home/pev/Documents/Nav/catkin_ws/devel/.private/rosserial_mbed/share/common-lisp/ros/rosserial_mbed/msg/_package.lisp
+(cl:defpackage rosserial_mbed-msg
+  (:use )
+  (:export
+   "<ADC>"
+   "ADC"
+  ))
+

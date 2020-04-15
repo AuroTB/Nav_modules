@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/pev/Documents/Nav/catkin_ws/devel/.private/tf2_msgs/include/tf2_msgs/FrameGraph.h
+/home/pev/Documents/Nav/catkin_ws/devel/include/tf2_msgs/FrameGraph.h
 ros/service_traits.h
 -
 tf2_msgs/FrameGraphRequest.h
@@ -14,7 +14,7 @@ tf2_msgs/FrameGraphRequest.h
 tf2_msgs/FrameGraphResponse.h
 -
 
-/home/pev/Documents/Nav/catkin_ws/devel/.private/tf2_msgs/include/tf2_msgs/FrameGraphRequest.h
+/home/pev/Documents/Nav/catkin_ws/devel/include/tf2_msgs/FrameGraphRequest.h
 string
 -
 vector
@@ -30,7 +30,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/pev/Documents/Nav/catkin_ws/devel/.private/tf2_msgs/include/tf2_msgs/FrameGraphResponse.h
+/home/pev/Documents/Nav/catkin_ws/devel/include/tf2_msgs/FrameGraphResponse.h
 string
 -
 vector
@@ -46,7 +46,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/pev/Documents/Nav/catkin_ws/devel/.private/tf2_msgs/include/tf2_msgs/TFMessage.h
+/home/pev/Documents/Nav/catkin_ws/devel/include/tf2_msgs/TFMessage.h
 string
 -
 vector

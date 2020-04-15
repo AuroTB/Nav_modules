@@ -1,1 +1,0 @@
-/home/pev/Documents/Nav/catkin_ws/devel/.private/rosserial_mbed/lib/python2.7/dist-packages/rosserial_mbed/__init__.py

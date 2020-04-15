@@ -68,7 +68,7 @@ set(rgbd_launch_CONFIG_INCLUDED TRUE)
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
   set(rgbd_launch_SOURCE_PREFIX /home/pev/Documents/Nav/catkin_ws/src/rgbd_launch)
-  set(rgbd_launch_DEVEL_PREFIX /home/pev/Documents/Nav/catkin_ws/devel/.private/rgbd_launch)
+  set(rgbd_launch_DEVEL_PREFIX /home/pev/Documents/Nav/catkin_ws/devel)
   set(rgbd_launch_INSTALL_PREFIX "")
   set(rgbd_launch_PREFIX ${rgbd_launch_DEVEL_PREFIX})
 else()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/pev/Documents/Nav/catkin_ws/install/lib;/home/pev/Documents/Nav/catkin_ws/devel/lib;/home/pev/catkin_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/pev/Documents/Nav/catkin_ws/install/lib;/home/pev/catkin_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

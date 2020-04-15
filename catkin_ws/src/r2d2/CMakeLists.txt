@@ -138,7 +138,6 @@ include_directories(
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
  add_executable(state_publisher src/state_publisher.cpp)
- add_executable(laser_state_publisher src/laser_state_publisher.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -155,11 +154,6 @@ include_directories(
    state_publisher
    ${catkin_LIBRARIES}
  )
-
- target_link_libraries(
-   laser_state_publisher
-   ${catkin_LIBRARIES}
-)
   
 
 #############

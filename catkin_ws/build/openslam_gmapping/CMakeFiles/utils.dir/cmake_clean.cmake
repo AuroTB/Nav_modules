@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/utils.dir/utils/stat.cpp.o"
   "CMakeFiles/utils.dir/utils/movement.cpp.o"
-  "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/libutils.pdb"
-  "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/libutils.so"
+  "/home/pev/Documents/Nav/catkin_ws/devel/lib/libutils.pdb"
+  "/home/pev/Documents/Nav/catkin_ws/devel/lib/libutils.so"
 )
 
 # Per-language clean rules from dependency scanning.

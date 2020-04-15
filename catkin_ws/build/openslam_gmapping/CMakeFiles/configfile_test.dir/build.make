@@ -43,42 +43,42 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping
+CMAKE_SOURCE_DIR = /home/pev/Documents/Nav/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping
+CMAKE_BINARY_DIR = /home/pev/Documents/Nav/catkin_ws/build
 
 # Include any dependencies generated for this target.
-include CMakeFiles/configfile_test.dir/depend.make
+include openslam_gmapping/CMakeFiles/configfile_test.dir/depend.make
 
 # Include the progress variables for this target.
-include CMakeFiles/configfile_test.dir/progress.make
+include openslam_gmapping/CMakeFiles/configfile_test.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include CMakeFiles/configfile_test.dir/flags.make
+include openslam_gmapping/CMakeFiles/configfile_test.dir/flags.make
 
-CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.o: CMakeFiles/configfile_test.dir/flags.make
-CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.o: /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/configfile/configfile_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.o -c /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/configfile/configfile_test.cpp
+openslam_gmapping/CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.o: openslam_gmapping/CMakeFiles/configfile_test.dir/flags.make
+openslam_gmapping/CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.o: /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/configfile/configfile_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pev/Documents/Nav/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object openslam_gmapping/CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.o"
+	cd /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.o -c /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/configfile/configfile_test.cpp
 
-CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.i: cmake_force
+openslam_gmapping/CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/configfile/configfile_test.cpp > CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.i
+	cd /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/configfile/configfile_test.cpp > CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.i
 
-CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.s: cmake_force
+openslam_gmapping/CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/configfile/configfile_test.cpp -o CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.s
+	cd /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/configfile/configfile_test.cpp -o CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.s
 
-CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.o.requires:
+openslam_gmapping/CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.o.requires:
 
-.PHONY : CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.o.requires
+.PHONY : openslam_gmapping/CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.o.requires
 
-CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.o.provides: CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.o.requires
-	$(MAKE) -f CMakeFiles/configfile_test.dir/build.make CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.o.provides.build
-.PHONY : CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.o.provides
+openslam_gmapping/CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.o.provides: openslam_gmapping/CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.o.requires
+	$(MAKE) -f openslam_gmapping/CMakeFiles/configfile_test.dir/build.make openslam_gmapping/CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.o.provides.build
+.PHONY : openslam_gmapping/CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.o.provides
 
-CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.o.provides.build: CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.o
+openslam_gmapping/CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.o.provides.build: openslam_gmapping/CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.o
 
 
 # Object files for target configfile_test
@@ -88,27 +88,27 @@ configfile_test_OBJECTS = \
 # External object files for target configfile_test
 configfile_test_EXTERNAL_OBJECTS =
 
-/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/openslam_gmapping/configfile_test: CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.o
-/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/openslam_gmapping/configfile_test: CMakeFiles/configfile_test.dir/build.make
-/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/openslam_gmapping/configfile_test: /home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/libconfigfile.so
-/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/openslam_gmapping/configfile_test: CMakeFiles/configfile_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/openslam_gmapping/configfile_test"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/configfile_test.dir/link.txt --verbose=$(VERBOSE)
+/home/pev/Documents/Nav/catkin_ws/devel/lib/openslam_gmapping/configfile_test: openslam_gmapping/CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.o
+/home/pev/Documents/Nav/catkin_ws/devel/lib/openslam_gmapping/configfile_test: openslam_gmapping/CMakeFiles/configfile_test.dir/build.make
+/home/pev/Documents/Nav/catkin_ws/devel/lib/openslam_gmapping/configfile_test: /home/pev/Documents/Nav/catkin_ws/devel/lib/libconfigfile.so
+/home/pev/Documents/Nav/catkin_ws/devel/lib/openslam_gmapping/configfile_test: openslam_gmapping/CMakeFiles/configfile_test.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pev/Documents/Nav/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/pev/Documents/Nav/catkin_ws/devel/lib/openslam_gmapping/configfile_test"
+	cd /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/configfile_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/configfile_test.dir/build: /home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/openslam_gmapping/configfile_test
+openslam_gmapping/CMakeFiles/configfile_test.dir/build: /home/pev/Documents/Nav/catkin_ws/devel/lib/openslam_gmapping/configfile_test
 
-.PHONY : CMakeFiles/configfile_test.dir/build
+.PHONY : openslam_gmapping/CMakeFiles/configfile_test.dir/build
 
-CMakeFiles/configfile_test.dir/requires: CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.o.requires
+openslam_gmapping/CMakeFiles/configfile_test.dir/requires: openslam_gmapping/CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.o.requires
 
-.PHONY : CMakeFiles/configfile_test.dir/requires
+.PHONY : openslam_gmapping/CMakeFiles/configfile_test.dir/requires
 
-CMakeFiles/configfile_test.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles/configfile_test.dir/cmake_clean.cmake
-.PHONY : CMakeFiles/configfile_test.dir/clean
+openslam_gmapping/CMakeFiles/configfile_test.dir/clean:
+	cd /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping && $(CMAKE_COMMAND) -P CMakeFiles/configfile_test.dir/cmake_clean.cmake
+.PHONY : openslam_gmapping/CMakeFiles/configfile_test.dir/clean
 
-CMakeFiles/configfile_test.dir/depend:
-	cd /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping/CMakeFiles/configfile_test.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/configfile_test.dir/depend
+openslam_gmapping/CMakeFiles/configfile_test.dir/depend:
+	cd /home/pev/Documents/Nav/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pev/Documents/Nav/catkin_ws/src /home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping /home/pev/Documents/Nav/catkin_ws/build /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping /home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping/CMakeFiles/configfile_test.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : openslam_gmapping/CMakeFiles/configfile_test.dir/depend
 

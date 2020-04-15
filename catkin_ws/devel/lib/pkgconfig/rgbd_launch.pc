@@ -1,1 +1,8 @@
-/home/pev/Documents/Nav/catkin_ws/devel/.private/rgbd_launch/lib/pkgconfig/rgbd_launch.pc
+prefix=/home/pev/Documents/Nav/catkin_ws/devel
+
+Name: rgbd_launch
+Description: Description of rgbd_launch
+Version: 2.1.3
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

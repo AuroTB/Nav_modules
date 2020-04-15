@@ -1,1 +1,10 @@
-/home/pev/Documents/Nav/catkin_ws/devel/.private/rosserial_msgs/share/gennodejs/ros/rosserial_msgs/msg/_index.js
+
+"use strict";
+
+let TopicInfo = require('./TopicInfo.js');
+let Log = require('./Log.js');
+
+module.exports = {
+  TopicInfo: TopicInfo,
+  Log: Log,
+};

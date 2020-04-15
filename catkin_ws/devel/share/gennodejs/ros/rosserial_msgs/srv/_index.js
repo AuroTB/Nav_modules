@@ -1,1 +1,8 @@
-/home/pev/Documents/Nav/catkin_ws/devel/.private/rosserial_msgs/share/gennodejs/ros/rosserial_msgs/srv/_index.js
+
+"use strict";
+
+let RequestParam = require('./RequestParam.js')
+
+module.exports = {
+  RequestParam: RequestParam,
+};

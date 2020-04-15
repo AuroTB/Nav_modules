@@ -1,1 +1,2 @@
-/home/pev/Documents/Nav/catkin_ws/devel/.private/rosserial_msgs/lib/python2.7/dist-packages/rosserial_msgs/msg/__init__.py
+from ._Log import *
+from ._TopicInfo import *

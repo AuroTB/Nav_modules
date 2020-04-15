@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/log_plot.dir/log/log_plot.cpp.o"
-  "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/openslam_gmapping/log_plot.pdb"
-  "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/openslam_gmapping/log_plot"
+  "/home/pev/Documents/Nav/catkin_ws/devel/lib/openslam_gmapping/log_plot.pdb"
+  "/home/pev/Documents/Nav/catkin_ws/devel/lib/openslam_gmapping/log_plot"
 )
 
 # Per-language clean rules from dependency scanning.

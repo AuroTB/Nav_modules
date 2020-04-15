@@ -38,97 +38,6 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  
-      if (NOT EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}")
-        file(MAKE_DIRECTORY "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}")
-      endif()
-      if (NOT EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/.catkin")
-        file(WRITE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/.catkin" "")
-      endif()
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/pev/Documents/Nav/catkin_ws/install/_setup_util.py")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "/home/pev/Documents/Nav/catkin_ws/install" TYPE PROGRAM FILES "/home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping/catkin_generated/installspace/_setup_util.py")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/pev/Documents/Nav/catkin_ws/install/env.sh")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "/home/pev/Documents/Nav/catkin_ws/install" TYPE PROGRAM FILES "/home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping/catkin_generated/installspace/env.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/pev/Documents/Nav/catkin_ws/install/setup.bash;/home/pev/Documents/Nav/catkin_ws/install/local_setup.bash")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "/home/pev/Documents/Nav/catkin_ws/install" TYPE FILE FILES
-    "/home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping/catkin_generated/installspace/setup.bash"
-    "/home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping/catkin_generated/installspace/local_setup.bash"
-    )
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/pev/Documents/Nav/catkin_ws/install/setup.sh;/home/pev/Documents/Nav/catkin_ws/install/local_setup.sh")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "/home/pev/Documents/Nav/catkin_ws/install" TYPE FILE FILES
-    "/home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping/catkin_generated/installspace/setup.sh"
-    "/home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping/catkin_generated/installspace/local_setup.sh"
-    )
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/pev/Documents/Nav/catkin_ws/install/setup.zsh;/home/pev/Documents/Nav/catkin_ws/install/local_setup.zsh")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "/home/pev/Documents/Nav/catkin_ws/install" TYPE FILE FILES
-    "/home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping/catkin_generated/installspace/setup.zsh"
-    "/home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping/catkin_generated/installspace/local_setup.zsh"
-    )
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/pev/Documents/Nav/catkin_ws/install/.rosinstall")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "/home/pev/Documents/Nav/catkin_ws/install" TYPE FILE FILES "/home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping/catkin_generated/installspace/.rosinstall")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping/catkin_generated/installspace/openslam_gmapping.pc")
 endif()
 
@@ -150,7 +59,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libutils.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/libutils.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/pev/Documents/Nav/catkin_ws/devel/lib/libutils.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libutils.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libutils.so")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -166,7 +75,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/autoptr_test"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping" TYPE EXECUTABLE FILES "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/openslam_gmapping/autoptr_test")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping" TYPE EXECUTABLE FILES "/home/pev/Documents/Nav/catkin_ws/devel/lib/openslam_gmapping/autoptr_test")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/autoptr_test" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/autoptr_test")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -182,7 +91,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsensor_base.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/libsensor_base.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/pev/Documents/Nav/catkin_ws/devel/lib/libsensor_base.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsensor_base.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsensor_base.so")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -198,12 +107,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsensor_odometry.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/libsensor_odometry.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/pev/Documents/Nav/catkin_ws/devel/lib/libsensor_odometry.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsensor_odometry.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsensor_odometry.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsensor_odometry.so"
-         OLD_RPATH "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib:"
+         OLD_RPATH "/home/pev/Documents/Nav/catkin_ws/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsensor_odometry.so")
@@ -218,12 +127,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsensor_range.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/libsensor_range.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/pev/Documents/Nav/catkin_ws/devel/lib/libsensor_range.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsensor_range.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsensor_range.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsensor_range.so"
-         OLD_RPATH "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib:"
+         OLD_RPATH "/home/pev/Documents/Nav/catkin_ws/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsensor_range.so")
@@ -238,12 +147,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsensor_range.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/libsensor_range.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/pev/Documents/Nav/catkin_ws/devel/lib/libsensor_range.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsensor_range.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsensor_range.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsensor_range.so"
-         OLD_RPATH "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib:"
+         OLD_RPATH "/home/pev/Documents/Nav/catkin_ws/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsensor_range.so")
@@ -258,12 +167,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liblog.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/liblog.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/pev/Documents/Nav/catkin_ws/devel/lib/liblog.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liblog.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liblog.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liblog.so"
-         OLD_RPATH "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib:"
+         OLD_RPATH "/home/pev/Documents/Nav/catkin_ws/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liblog.so")
@@ -278,12 +187,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/log_test"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping" TYPE EXECUTABLE FILES "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/openslam_gmapping/log_test")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping" TYPE EXECUTABLE FILES "/home/pev/Documents/Nav/catkin_ws/devel/lib/openslam_gmapping/log_test")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/log_test" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/log_test")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/log_test"
-         OLD_RPATH "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib:"
+         OLD_RPATH "/home/pev/Documents/Nav/catkin_ws/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/log_test")
@@ -298,12 +207,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/log_plot"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping" TYPE EXECUTABLE FILES "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/openslam_gmapping/log_plot")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping" TYPE EXECUTABLE FILES "/home/pev/Documents/Nav/catkin_ws/devel/lib/openslam_gmapping/log_plot")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/log_plot" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/log_plot")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/log_plot"
-         OLD_RPATH "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib:"
+         OLD_RPATH "/home/pev/Documents/Nav/catkin_ws/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/log_plot")
@@ -318,12 +227,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/scanstudio2carmen"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping" TYPE EXECUTABLE FILES "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/openslam_gmapping/scanstudio2carmen")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping" TYPE EXECUTABLE FILES "/home/pev/Documents/Nav/catkin_ws/devel/lib/openslam_gmapping/scanstudio2carmen")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/scanstudio2carmen" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/scanstudio2carmen")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/scanstudio2carmen"
-         OLD_RPATH "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib:"
+         OLD_RPATH "/home/pev/Documents/Nav/catkin_ws/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/scanstudio2carmen")
@@ -338,12 +247,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/rdk2carmen"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping" TYPE EXECUTABLE FILES "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/openslam_gmapping/rdk2carmen")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping" TYPE EXECUTABLE FILES "/home/pev/Documents/Nav/catkin_ws/devel/lib/openslam_gmapping/rdk2carmen")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/rdk2carmen" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/rdk2carmen")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/rdk2carmen"
-         OLD_RPATH "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib:"
+         OLD_RPATH "/home/pev/Documents/Nav/catkin_ws/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/rdk2carmen")
@@ -358,7 +267,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libconfigfile.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/libconfigfile.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/pev/Documents/Nav/catkin_ws/devel/lib/libconfigfile.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libconfigfile.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libconfigfile.so")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -374,12 +283,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/configfile_test"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping" TYPE EXECUTABLE FILES "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/openslam_gmapping/configfile_test")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping" TYPE EXECUTABLE FILES "/home/pev/Documents/Nav/catkin_ws/devel/lib/openslam_gmapping/configfile_test")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/configfile_test" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/configfile_test")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/configfile_test"
-         OLD_RPATH "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib:"
+         OLD_RPATH "/home/pev/Documents/Nav/catkin_ws/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/configfile_test")
@@ -394,12 +303,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libscanmatcher.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/libscanmatcher.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/pev/Documents/Nav/catkin_ws/devel/lib/libscanmatcher.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libscanmatcher.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libscanmatcher.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libscanmatcher.so"
-         OLD_RPATH "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib:"
+         OLD_RPATH "/home/pev/Documents/Nav/catkin_ws/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libscanmatcher.so")
@@ -414,12 +323,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/scanmatch_test"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping" TYPE EXECUTABLE FILES "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/openslam_gmapping/scanmatch_test")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping" TYPE EXECUTABLE FILES "/home/pev/Documents/Nav/catkin_ws/devel/lib/openslam_gmapping/scanmatch_test")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/scanmatch_test" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/scanmatch_test")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/scanmatch_test"
-         OLD_RPATH "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib:"
+         OLD_RPATH "/home/pev/Documents/Nav/catkin_ws/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/scanmatch_test")
@@ -434,12 +343,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/icptest"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping" TYPE EXECUTABLE FILES "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/openslam_gmapping/icptest")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping" TYPE EXECUTABLE FILES "/home/pev/Documents/Nav/catkin_ws/devel/lib/openslam_gmapping/icptest")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/icptest" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/icptest")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/icptest"
-         OLD_RPATH "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib:"
+         OLD_RPATH "/home/pev/Documents/Nav/catkin_ws/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/icptest")
@@ -454,12 +363,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgridfastslam.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/libgridfastslam.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/pev/Documents/Nav/catkin_ws/devel/lib/libgridfastslam.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgridfastslam.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgridfastslam.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgridfastslam.so"
-         OLD_RPATH "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib:"
+         OLD_RPATH "/home/pev/Documents/Nav/catkin_ws/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgridfastslam.so")
@@ -474,12 +383,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/gfs2log"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping" TYPE EXECUTABLE FILES "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/openslam_gmapping/gfs2log")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping" TYPE EXECUTABLE FILES "/home/pev/Documents/Nav/catkin_ws/devel/lib/openslam_gmapping/gfs2log")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/gfs2log" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/gfs2log")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/gfs2log"
-         OLD_RPATH "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib:"
+         OLD_RPATH "/home/pev/Documents/Nav/catkin_ws/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/gfs2log")
@@ -494,12 +403,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/gfs2rec"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping" TYPE EXECUTABLE FILES "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/openslam_gmapping/gfs2rec")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping" TYPE EXECUTABLE FILES "/home/pev/Documents/Nav/catkin_ws/devel/lib/openslam_gmapping/gfs2rec")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/gfs2rec" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/gfs2rec")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/gfs2rec"
-         OLD_RPATH "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib:"
+         OLD_RPATH "/home/pev/Documents/Nav/catkin_ws/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/gfs2rec")
@@ -514,12 +423,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/gfs2neff"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping" TYPE EXECUTABLE FILES "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib/openslam_gmapping/gfs2neff")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping" TYPE EXECUTABLE FILES "/home/pev/Documents/Nav/catkin_ws/devel/lib/openslam_gmapping/gfs2neff")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/gfs2neff" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/gfs2neff")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/gfs2neff"
-         OLD_RPATH "/home/pev/Documents/Nav/catkin_ws/devel/.private/openslam_gmapping/lib:"
+         OLD_RPATH "/home/pev/Documents/Nav/catkin_ws/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openslam_gmapping/gfs2neff")
@@ -531,19 +440,3 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/include/gmapping" FILES_MATCHING REGEX "/[^/]*\\.h[^/]*$" REGEX "/\\.svn$" EXCLUDE)
 endif()
 
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("/home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping/gtest/cmake_install.cmake")
-
-endif()
-
-if(CMAKE_INSTALL_COMPONENT)
-  set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
-else()
-  set(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
-endif()
-
-string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
-       "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/pev/Documents/Nav/catkin_ws/build/openslam_gmapping/${CMAKE_INSTALL_MANIFEST}"
-     "${CMAKE_INSTALL_MANIFEST_CONTENT}")

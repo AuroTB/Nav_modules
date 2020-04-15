@@ -1,1 +1,0 @@
-/home/pev/Documents/Nav/catkin_ws/devel/.private/openni_camera/lib/python2.7/dist-packages/openni_camera/__init__.py

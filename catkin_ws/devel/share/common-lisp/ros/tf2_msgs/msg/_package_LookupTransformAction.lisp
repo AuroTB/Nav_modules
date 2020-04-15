@@ -1,1 +1,8 @@
-/home/pev/Documents/Nav/catkin_ws/devel/.private/tf2_msgs/share/common-lisp/ros/tf2_msgs/msg/_package_LookupTransformAction.lisp
+(cl:in-package tf2_msgs-msg)
+(cl:export '(ACTION_GOAL-VAL
+          ACTION_GOAL
+          ACTION_RESULT-VAL
+          ACTION_RESULT
+          ACTION_FEEDBACK-VAL
+          ACTION_FEEDBACK
+))

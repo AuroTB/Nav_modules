@@ -1,1 +1,8 @@
-/home/pev/Documents/Nav/catkin_ws/devel/.private/rosserial_windows/lib/pkgconfig/rosserial_windows.pc
+prefix=/home/pev/Documents/Nav/catkin_ws/devel
+
+Name: rosserial_windows
+Description: Description of rosserial_windows
+Version: 0.8.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

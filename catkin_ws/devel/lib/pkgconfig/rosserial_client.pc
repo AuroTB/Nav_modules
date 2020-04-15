@@ -1,1 +1,8 @@
-/home/pev/Documents/Nav/catkin_ws/devel/.private/rosserial_client/lib/pkgconfig/rosserial_client.pc
+prefix=/home/pev/Documents/Nav/catkin_ws/devel
+
+Name: rosserial_client
+Description: Description of rosserial_client
+Version: 0.8.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

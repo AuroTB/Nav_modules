@@ -1,1 +1,8 @@
-/home/pev/Documents/Nav/catkin_ws/devel/.private/pointcloud2laser/lib/pkgconfig/pointcloud2laser.pc
+prefix=/home/pev/Documents/Nav/catkin_ws/devel
+
+Name: pointcloud2laser
+Description: Description of pointcloud2laser
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

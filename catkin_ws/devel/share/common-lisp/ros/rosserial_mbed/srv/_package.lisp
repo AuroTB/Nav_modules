@@ -1,1 +1,10 @@
-/home/pev/Documents/Nav/catkin_ws/devel/.private/rosserial_mbed/share/common-lisp/ros/rosserial_mbed/srv/_package.lisp
+(cl:defpackage rosserial_mbed-srv
+  (:use )
+  (:export
+   "TEST"
+   "<TEST-REQUEST>"
+   "TEST-REQUEST"
+   "<TEST-RESPONSE>"
+   "TEST-RESPONSE"
+  ))
+

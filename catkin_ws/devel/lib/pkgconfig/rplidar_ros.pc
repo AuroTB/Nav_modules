@@ -1,1 +1,8 @@
-/home/pev/Documents/Nav/catkin_ws/devel/.private/rplidar_ros/lib/pkgconfig/rplidar_ros.pc
+prefix=/home/pev/Documents/Nav/catkin_ws/devel
+
+Name: rplidar_ros
+Description: Description of rplidar_ros
+Version: 1.10.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

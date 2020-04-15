@@ -1,1 +1,7 @@
-/home/pev/Documents/Nav/catkin_ws/devel/.private/rosserial_arduino/share/gennodejs/ros/rosserial_arduino/_index.js
+
+"use strict";
+
+module.exports = {
+  msg: require('./msg/_index.js'),
+  srv: require('./srv/_index.js')
+};
