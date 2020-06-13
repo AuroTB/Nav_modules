@@ -1,0 +1,60 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/pev/Documents/Nav/catkin_ws/devel/include/**",
+                "/home/pev/catkin_ws/devel/include/**",
+                "/opt/ros/melodic/include/**",
+                "/home/pev/Documents/Nav/catkin_ws/src/navigation/amcl/include/**",
+                "/home/pev/Documents/Nav/catkin_ws/src/navigation/base_local_planner/include/**",
+                "/home/pev/Documents/Nav/catkin_ws/src/navigation/carrot_planner/include/**",
+                "/home/pev/Documents/Nav/catkin_ws/src/navigation/clear_costmap_recovery/include/**",
+                "/home/pev/Documents/Nav/catkin_ws/src/navigation/costmap_2d/include/**",
+                "/home/pev/catkin_ws/src/ddynamic_reconfigure/include/**",
+                "/home/pev/Documents/Nav/catkin_ws/src/navigation/dwa_local_planner/include/**",
+                "/home/pev/Documents/Nav/catkin_ws/src/navigation/global_planner/include/**",
+                "/home/pev/Documents/Nav/catkin_ws/src/hector_slam/hector_geotiff/include/**",
+                "/home/pev/Documents/Nav/catkin_ws/src/hector_slam/hector_map_tools/include/**",
+                "/home/pev/Documents/Nav/catkin_ws/src/hector_slam/hector_mapping/include/**",
+                "/home/pev/Documents/Nav/catkin_ws/src/hector_slam/hector_marker_drawing/include/**",
+                "/home/pev/Documents/Nav/catkin_ws/src/map_markers/include/**",
+                "/home/pev/Documents/Nav/catkin_ws/src/navigation/map_server/include/**",
+                "/home/pev/Documents/Nav/catkin_ws/src/navigation/move_base/include/**",
+                "/home/pev/Documents/Nav/catkin_ws/src/navigation/move_slow_and_clear/include/**",
+                "/home/pev/catkin_ws/src/my_pcl_tutorial/include/**",
+                "/home/pev/Documents/Nav/catkin_ws/src/navigation/nav_core/include/**",
+                "/home/pev/Documents/Nav/catkin_ws/src/navigation/navfn/include/**",
+                "/home/pev/Documents/Nav/catkin_ws/src/openni_camera/openni_camera/include/**",
+                "/home/pev/Documents/Nav/catkin_ws/src/openslam_gmapping/include/**",
+                "/home/pev/Documents/Nav/catkin_ws/src/pointcloud_to_laserscan/include/**",
+                "/home/pev/Documents/Nav/catkin_ws/src/r2d2/include/**",
+                "/home/pev/catkin_ws/src/realsense-ros/realsense2_camera/include/**",
+                "/home/pev/Documents/Nav/catkin_ws/src/robot_setup_tf/include/**",
+                "/home/pev/Documents/Nav/catkin_ws/src/rosserial/rosserial_server/include/**",
+                "/home/pev/Documents/Nav/catkin_ws/src/rosserial/rosserial_test/include/**",
+                "/home/pev/Documents/Nav/catkin_ws/src/navigation/rotate_recovery/include/**",
+                "/home/pev/Documents/Nav/catkin_ws/src/simple_navigation_goals/include/**",
+                "/home/pev/Documents/Nav/catkin_ws/src/geometry2/tf2/include/**",
+                "/home/pev/Documents/Nav/catkin_ws/src/geometry2/tf2_bullet/include/**",
+                "/home/pev/Documents/Nav/catkin_ws/src/geometry2/tf2_eigen/include/**",
+                "/home/pev/Documents/Nav/catkin_ws/src/geometry2/tf2_geometry_msgs/include/**",
+                "/home/pev/Documents/Nav/catkin_ws/src/geometry2/tf2_kdl/include/**",
+                "/home/pev/Documents/Nav/catkin_ws/src/geometry2/tf2_msgs/include/**",
+                "/home/pev/Documents/Nav/catkin_ws/src/geometry2/tf2_ros/include/**",
+                "/home/pev/Documents/Nav/catkin_ws/src/geometry2/tf2_sensor_msgs/include/**",
+                "/home/pev/Documents/Nav/catkin_ws/src/navigation/voxel_grid/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
