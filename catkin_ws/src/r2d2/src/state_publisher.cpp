@@ -21,10 +21,10 @@ int main(int argc, char** argv) {
         // update transform
         // (moving in a circle with radius=2)
         odom_trans.header.stamp = ros::Time::now();
-        odom_trans.transform.translation.x = 0; //-cos(angle)*2;
-        odom_trans.transform.translation.y = 0; //-sin(angle)*2;
+        odom_trans.transform.translation.x = 0;
+        odom_trans.transform.translation.y = 0;
         odom_trans.transform.translation.z = 0;
-        odom_trans.transform.rotation = tf::createQuaternionMsgFromYaw(0);//angle+M_PI/2);
+        odom_trans.transform.rotation = tf::createQuaternionMsgFromYaw(0);
 
         //send the joint state and transform
         broadcaster.sendTransform(odom_trans);

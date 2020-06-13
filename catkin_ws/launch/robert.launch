@@ -1,6 +1,5 @@
 <launch>
-    <include file="$(find rplidar_ros)/launch/rplidar.launch" />
-    <node pkg="tf" type="static_transform_publisher" name="base_to_laser_broadcaster" args="0 0 0 0 0 0 base_link laser 100"/>
     <node name="state_publisher" pkg="r2d2" type="state_publisher" />
+    <include file="$(find rplidar_ros)/launch/rplidar.launch" />
     <include file="$(find robot_description)/launch/display.launch" />
 </launch>
